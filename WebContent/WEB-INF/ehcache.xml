@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="ehcache.xsd"
+         updateCheck="false" monitoring="autodetect"
+         dynamicConfig="true" name="TestCache" >
+	<defaultCache eternal="true" maxElementsInMemory="100"
+		overflowToDisk="false" />
+	<cache name="endemicCache" maxElementsInMemory="100" eternal="false"
+		overflowToDisk="false" />
+	<cache name="legendCache" maxElementsInMemory="2000" eternal="false"
+		overflowToDisk="false" />
+	<cache name="getColours" maxElementsInMemory="2000" eternal="false"
+		overflowToDisk="false" />
+	<cache name="fixWkt" maxElementsInMemory="100" eternal="false"
+		overflowToDisk="false" />
+</ehcache>
