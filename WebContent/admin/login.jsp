@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 30 AUG 2018
-    Author     : Lucifer
+    Author     : Lucifer.
 --%>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
